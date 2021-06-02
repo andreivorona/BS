@@ -1,0 +1,19 @@
+﻿namespace BrokerSite.Data.Models
+{
+    using BrokerSite.Data.Common.Models;
+
+    public class ByeProperty : BaseDeletableModel<string>
+    {
+        public string Name { get; set; }
+
+        public string PictureProperty { get; set; }
+
+        public string Location { get; set; }
+
+        public string Details { get; set; }
+
+        public string UserId { get; set; }
+
+        public virtual ApplicationUser User { get; set; }
+    }
+}
