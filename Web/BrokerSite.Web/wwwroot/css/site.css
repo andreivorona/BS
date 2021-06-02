@@ -63,7 +63,7 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
-    background-image: src()
+    background-image: url("../Images/1.jpg")
 }
 
 .footer {
