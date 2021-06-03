@@ -30,6 +30,8 @@
 
         public DbSet<SellProperty> SellProperties { get; set; }
 
+        public DbSet<RentProperty> RentProperties { get; set; }
+
         public override int SaveChanges() => this.SaveChanges(true);
 
         public override int SaveChanges(bool acceptAllChangesOnSuccess)

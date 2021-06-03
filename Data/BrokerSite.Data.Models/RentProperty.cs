@@ -2,7 +2,7 @@
 {
     using BrokerSite.Data.Common.Models;
 
-    public class ByeProperty : BaseDeletableModel<string>
+    public class RentProperty : BaseDeletableModel<string>
     {
         public string Name { get; set; }
 
