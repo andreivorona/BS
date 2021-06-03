@@ -1,6 +1,10 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+
+
 a.navbar-brand {
     white-space: normal;
     text-align: center;
@@ -63,7 +67,11 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
-    background-image: url("../Images/1.jpg")
+    background-image: url("../Images/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    font-family: 'Lato', sans-serif;
 }
 
 .footer {
@@ -72,4 +80,13 @@ body {
     width: 100%;
     white-space: nowrap;
     line-height: 60px; /* Vertically center the text there */
+    background-color: lightgray;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
 }
