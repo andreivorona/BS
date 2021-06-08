@@ -2045,6 +2045,8 @@ button.close {
 
 .left-col {
     background-color: white;
+    position: absolute;
+    left: 0;
 }
 
 .info-window {
