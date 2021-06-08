@@ -10,13 +10,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+
+    <img class="background-img" src="./Images/1.jpg" alt="Alternate Text" />
+
     <header>
         <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container menu-container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Арес Имоти БГ</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                     <span class="navbar-toggler-icon"></span> 
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     @* <partial name="_LoginPartial" /> *@
@@ -58,14 +61,14 @@
             </div>
         </nav>
     </header>
-    
+
     <div class="container">
         <partial name="_CookieConsentPartial" />
         <main role="main" class="pb-3">
             @this.RenderBody()
         </main>
     </div>
-    
+
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; @DateTime.Now.Year - <a asp-area="" asp-controller="Home" asp-action="Index">Арес Имоти БГ &copy;</a>
