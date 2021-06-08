@@ -447,9 +447,25 @@ body {
 }
 
 h1 {
-    color: rgb(1, 1, 1);
+    color: black;
     box-shadow: 4px 7px 15px 5px rgb(20 10 35 / 74%);
     padding: 1rem;
+}
+
+a {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+.contact-left-side {
+    max-width: 20rem;
+    background-color: white;
+    margin-left: -24.5rem;
+    height: 50rem;
+    padding: 1.5rem;
 }
 
 
