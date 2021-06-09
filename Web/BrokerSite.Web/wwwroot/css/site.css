@@ -2057,4 +2057,67 @@ button.close {
     end left side contact
 */
 
+/*
+    begin map-info-contact
+*/
 
+.map-info-contact {
+    width: 900px;
+    height: 500px;
+    background-color: red;
+    position: absolute;
+    left: 420px;
+    background-image: url("../Images/map-info-contact.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*
+    end map-info-contact
+*/
+
+/*
+    begin map-info-bye
+*/
+
+.map-info-bye {
+    width: 900px;
+    height: 500px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    background-image: url("../Images/map-info-contact.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.property-info-bye {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    right: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+}
+
+.card header {
+    width: 150px;
+    height: 70px;
+    box-shadow: none;
+}
+
+.card img {
+    width: 150px;
+    height: 70px;
+}
+
+/*
+    end map-info-bye
+*/
